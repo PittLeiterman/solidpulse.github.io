@@ -15,7 +15,7 @@ import { unifiedConditional } from 'unified-conditional'
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
   output: 'export',  // ✅ Enables `next export`
-  basePath: '/your-repository-name',  // ✅ Required for GitHub Pages
+  basePath: '/PittLeiterman/solidpulse.github.io.git',  // ✅ Required for GitHub Pages
   trailingSlash: true, // ✅ Fixes relative paths
   images: {
     unoptimized: true, // ✅ Disables Next.js Image Optimization (required for static exports)
