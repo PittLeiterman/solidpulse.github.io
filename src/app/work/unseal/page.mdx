@@ -1,0 +1,43 @@
+import logo from '@/images/products/logoBlue.svg'
+import imageHero from './BildSolidPlans.jpeg'
+import imageEmilySelman from './emily-selman.jpg'
+import TechStack from '@/components/TechStack'
+
+export const caseStudy = {
+  client: 'SolidFlow',
+  title: 'Wo intelligente Planung auf nahtlose Umsetzung trifft.',
+  description:
+    'SolidFlow verbindet Automatisierung mit smarter Organisation für maximale Effizienz. So behalten Sie jederzeit den Überblick, vermeiden Engpässe und setzen Ihr Team genau dort ein, wo es gebraucht wird.',
+  summary: [
+    'Veranstaltungen erfolgreich planen und organisieren.',
+    'Unser Eventmanagement-Tool unterstützt Sie bei der Terminverwaltung, Teilnehmerkoordination und Ressourcenplanung – effizient, übersichtlich und intuitiv.',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: 'October 2024',
+  service: 'Eventmanagement',
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Produkt`,
+  description: caseStudy.description,
+}
+
+## Übersicht
+
+Ein intelligentes Planungstool mit Optimierungsalgorithmen erleichtert die Event- und Personaleinsatzplanung erheblich. Es berücksichtigt Verfügbarkeiten, Qualifikationen und Vorschriften, um automatisch den bestmöglichen Einsatzplan zu erstellen. 
+Engpässe und Doppelbuchungen werden vermieden, während jeder Mitarbeitende genau dort eingeplant wird, wo er am meisten Mehrwert schafft. 
+
+Durch Echtzeit-Anpassungen können kurzfristige Änderungen sofort berücksichtigt werden, ohne dass manuelle Umplanungen nötig sind. Das sorgt für eine effiziente Koordination und eine reibungslose Durchführung von Events. 
+
+So sparen Sie Zeit, reduzieren Fehler und nutzen Ihre Ressourcen optimal.
+## Unser TechStack
+
+<TechStack/>
+
+<StatList>
+  <StatListItem value="100%" label="weniger Planungsfehler" />
+  <StatListItem value="<1 Sekunde" label="Dauer der Einsatzplaung" />
+  <StatListItem value="5x" label="bessere Personalzuteilung" />
+  <StatListItem value="30%" label="reduzierte Überstunden" />
+</StatList>

@@ -1,0 +1,50 @@
+import logo from '@/images/products/logoPurple.svg'
+import imageHero from './BildSolidSolutions.png'
+import imageDebraFiscal from './debra-fiscal.jpg'
+import docker from '@/images/techstack/docker.png'
+import git from '@/images/techstack/git.png'
+import spring from '@/images/techstack/spring.png'
+import react from '@/images/techstack/react.png'
+import figma from '@/images/techstack/figma.png'
+import tailwind from '@/images/techstack/tailwind.png'
+import Image from "next/image";
+import TechStack from '@/components/TechStack'
+
+
+
+export const caseStudy = {
+  client: 'SolidSolutions',
+  title: 'Weil Standardlösungen nicht für jeden passen',
+  description:
+    'Wir entwickeln individuelle Softwarelösungen, die perfekt auf Ihre Anforderungen zugeschnitten sind – effizient, skalierbar und zukunftssicher.',
+  summary: [
+    'Jedes Unternehmen hat einzigartige Prozesse und Anforderungen.',
+    'Wir entwickeln maßgeschneiderte Softwarelösungen, die sich nahtlos in Ihre Arbeitsabläufe integrieren – flexibel, effizient und zukunftssicher.',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: 'October 2024',
+  service: 'Individualsoftware',
+}
+
+export const metadata = {
+  title: `${caseStudy.client} SolidData`,
+  description: caseStudy.description,
+}
+
+## Übersicht
+
+In vielen Unternehmen stoßen Standardlösungen schnell an ihre Grenzen – sie sind oft zu starr, ineffizient oder nicht exakt auf die spezifischen Bedürfnisse abgestimmt. 
+
+Genau hier setzen wir an: Wir entwickeln individuelle Software, die sich nahtlos in bestehende Prozesse integriert, statt diese vorzugeben. So können Abläufe automatisiert, Daten optimal genutzt und Arbeitszeiten effizienter eingesetzt werden. 
+
+Maßgeschneiderte Software wächst mit dem Unternehmen mit und bleibt flexibel, wenn sich Anforderungen ändern. Statt Kompromisse einzugehen, erhalten Sie genau die Funktionen, die Sie wirklich brauchen – ohne unnötige Komplexität. So schaffen wir digitale Lösungen, die nicht nur leistungsfähig sind, sondern Ihr Unternehmen langfristig wettbewerbsfähig halten.
+## Unser TechStack
+
+<TechStack/>
+
+<StatList>
+  <StatListItem value="99.9%" label="Systemverfügbarkeit" />
+  <StatListItem value=">24h" label="Reaktionszeit bei Live-Fehlern" />
+  <StatListItem value="100%" label="Endgerätabdeckung" />
+</StatList>
